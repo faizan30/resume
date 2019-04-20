@@ -1,0 +1,187 @@
+%-------------------------
+% Resume in Latex
+% Author : Faizan Khan
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/faizan-khan-3010/}{\Large Faizan Khan}} & Email : \href{mailto:fskofficial@gmail.com}{fskofficial@gmail.com}\\
+  \href{https://www.linkedin.com/in/faizan-khan-3010/}{https://www.linkedin.com/in/faizan-khan-3010/} & Mobile : +91-9593269350 \\
+\end{tabular*}
+
+%-----------Summary-----------------
+\section{Summary}
+  {Machine Learning Engineer primarily focused on solving problems in Natural Language Processing using Deep Learning. Proficient in building ML solutions and deploying them at scale. Affinity for best practices of ML and Software Engineering.}
+  
+
+% %-----------Summary-----------------
+% \section{Summary}
+%   {Machine Learning Engineer primarily focused on solving problems in Natural Language Processing/Understanding using Deep Learning. Proficient in building Machine Learning solutions and deploying them at scale. Experienced in building and leading teams. Affinity for best practices of Machine Learning and Software Engineering.}
+  
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Botminds AI Technologies}{Chennai, India}
+      {Machine Learning Engineer/ Founding Team Member}{Aug 2016 - July 2018}
+      \resumeItemListStart
+        \resumeItem{ML as a service}
+          {The core AI Engine of the Botminds platform. Worked with a team to implement APIs and queue-based methods for on-demand training and scoring of Machine Learning models.}
+        \resumeItem{Segmentation of Pdf Documents}
+          {Identify and mark logical sections in Pdf documents with 97.27\% accuracy and 96.03\% f1-score. Wrote the core functionality.}
+        \resumeItem{Segment Type Identification}
+          {Identify segment types such as header, footer, heading, paragraph,etc from text with 91.72\% accuracy.}
+        \resumeItem{Multilabel Multiclass classification of legal text}
+          {Wrote code for multilabel multiclass classification of legal text. This feature is used by internal teams and clients for various use-cases. Reported f1-scores are greater than 90\%.}
+        \resumeItem{Value extraction from text}
+          {Extract values from text using sequence tagging. This feature is used by internal teams and clients for various use-cases. Reported accuracies are greater than 90\%. Wrote code for scoring and generating metrics.}
+        \resumeItem{Machine Comprehension}
+          {Designed and implemented scoring API for Machine Comprehension using a pretrained model.}
+        \resumeItem{In-house NLP Apis}
+          {Developed NLP APIs to replace previously used commercial APIs for common NLP tasks like a)Content Extraction from webpages b)Named Entity Recognition c) Summary Extraction.}
+        \resumeItem{CI/CD for ML}
+          {Designed and implemented a Continuous Integration and Continuous Delivery pipeline for Machine Learning code.}
+        \resumeItem{Containerization of ML Applications}
+          {Setup an Azure Container Registry and Kubernetes cluster. Wrote dockerfiles and kubernetes deployment files.}
+        \resumeItem{Rule-based segmentation of Sec documents}
+          {Implemented identification of logical sections from SEC documents in html format using a rule-based approach.}
+      
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Izytech}{Sikkim, India}
+      {Founder/ Web Developer}{Aug 2011 - July 2014}
+      \resumeItemListStart
+        \resumeItem{Web Development}
+          {Lead a team to generate leads and develop websites for local clients.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+
+
+%-----------Technical Skills-----------------
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Machine Learning}
+      {Natural Language Processing(Text Classification, Sequence Tagging, Machine Comprehension), Deep Learning(RNNs, CNN)}
+    \resumeSubItem{Programming}
+      {Python(Scikit Learn, Pytorch, Allennlp, Pandas, Numpy, Flask)}
+    \resumeSubItem{Technologies}
+      {Azure, Docker, Kubernetes}
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sikkim Manipal Institute of Technology}{Sikkim, India}
+      {Master of Technology in Computer Science and Engineering}{Aug 2014 - July. 2016}
+    \resumeSubheading
+      {Dayananda Sagar College of Engineering}{Bangalore, India}
+      {Bachelor of Engineering in Computer Science and Engineering}{Aug 2006 - Jan. 2011}
+  \resumeSubHeadingListEnd
+
+% %-----------CERTIFICATIONS-----------------
+% \section{CERTIFICATIONS}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {Deep Learning Specialization}{2017}
+%       {Coursera}{}
+%     \resumeSubheading
+%       {Analytics}{2016}
+%       {CDAC }{}
+%     \resumeSubheading
+%       {Text Analytics}{2016}
+%       {CDAC}{}
+%   \resumeSubHeadingListEnd
+
+
+% %-----------PROJECTS-----------------
+% \section{Projects}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{QuantSoftware Toolkit}
+%       {Open source python library for financial data analysis and machine learning for finance.}
+%     \resumeSubItem{Github Visualization}
+%       {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+%     \resumeSubItem{Recommendation System}
+%       {Music and Movie recommender systems using collaborative filtering on public datasets.}
+%     \resumeSubItem{Mac Setup}
+%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+%   \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
